@@ -43,10 +43,11 @@ release = 'v0.18'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['recommonmark',
+                "sphinx_multiversion",
                 'sphinx.ext.extlinks',
                 'sphinx.ext.todo',
                 'sphinx.ext.autodoc',
-                "sphinx.ext.autosummary",
+                'sphinx.ext.autosummary',
                 'breathe',
                 'exhale'
                 ]
@@ -54,7 +55,7 @@ extensions = ['recommonmark',
 autosummary_generate = True 
 autosummary_imported_members = False
 
-# # Setup the exhale extension
+# Setup the exhale extension
 exhale_args = {
     # These arguments are required
     "containmentFolder":     "./xml",
@@ -120,7 +121,9 @@ html_use_modindex = True
 
 html_theme_options = {
     "twitter_url": "https://twitter.com/blazingsql"
-    , "github_url": "https://github.com/BlazingDB/blazingsql"
+    , "repository_url": "https://github.com/BlazingDB/blazingsql"
+    , "use_repository_button": True
+    , "use_issues_button": True
     , "search_bar_position": "sidebar"
     , "search_bar_text": "Search BlazingSQL Docs"
     , "show_prev_next": True
@@ -133,15 +136,15 @@ html_theme_options = {
     , "navigation_with_keys": True
 }
 
-# html_theme_options = {
-    
-# }
-
 html_context = {
     "github_user": "blazingdb",
     "github_repo": "blazingsql",
     "github_version": "feedback",
     "doc_path": "docsrc/source",
+}
+
+html_sidebars = {
+    "**": ["versioning.html","sidebar-search-bs.html","sbt-sidebar-nav.html", "sbt-sidebar-footer.html"]
 }
 
 def skip(app, what, name, obj, would_skip, options):
