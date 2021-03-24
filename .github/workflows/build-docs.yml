@@ -6,7 +6,7 @@ name: Build docs
 on:
   push:
     branches: 
-      - main
+      - fix/doxygen-build
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -31,7 +31,7 @@ jobs:
           docs-folder: "docsrc/"
       - name: Commit documentation changes
         run: |
-          git clone https://github.com/romulo-auccapuclla/blazingsql.git --branch main --single-branch main
+          git clone https://github.com/romulo-auccapuclla/blazingsql.git --branch fix/doxygen-build --single-branch fix/doxygen-build
           cp -a docsrc/build/html/. docs/
           cd docs
           touch .nojekyll
@@ -42,7 +42,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          branch: main
+          branch: fix/doxygen-build
           directory: docs
           force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
