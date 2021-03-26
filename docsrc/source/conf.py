@@ -66,6 +66,8 @@ exhale_args = {
     "createTreeView":        True,
     # TIP: if using the sphinx-bootstrap-theme, you need
     #"treeViewIsBootstrap": True
+    "exhaleExecutesDoxygen": True,
+    "exhaleUseDoxyfile": True
 }
 
 # Setup the breathe extension
@@ -146,6 +148,14 @@ html_context = {
 html_sidebars = {
     "**": ["versioning.html","sidebar-search-bs.html","sbt-sidebar-nav.html", "sbt-sidebar-footer.html"]
 }
+# Override tags for sphinx multiversion
+smv_tag_whitelist = None
+
+# Include branch version and main branch for sphinx multiversion
+smv_branch_whitelist = r'^(branch.|main).*$'
+
+# Multiversion realease
+smv_released_pattern = r'^(tags/v.*|heads/branch.*)$'
 
 def skip(app, what, name, obj, would_skip, options):
     if name == "__init__":
