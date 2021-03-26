@@ -31,13 +31,13 @@ jobs:
           cd docsrc && make multiversion
       - name: Commit documentation changes
         run: |
-          ls -la docsrc/build/html/
-          cp -a docsrc/build/html/. docs/
-          touch docs/.nojekill
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          cp -a docsrc/build/html/. docs/
+          cp -a docsrc/other/redirect.html docs/index.html
+          touch docs/.nojekill
           git checkout --orphan gh-pages
-          git add .
+          git add docs
           git commit -m "Update documentation" -a || true
       - name: Push changes
         uses: ad-m/github-push-action@master
