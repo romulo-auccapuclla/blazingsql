@@ -40,8 +40,9 @@ jobs:
           cp -a docsrc/build/html/. docs/
           cp -a docsrc/other/redirect.html docs/index.html
           touch docs/.nojekill
-          git add docs
           git status
+          ls -la docs
+          git add docs
           ls -la docs
           git commit -m "Update documentation" || true
       - name: Push changes
