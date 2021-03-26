@@ -6,7 +6,7 @@ name: Build docs
 on:
   push:
     branches: 
-      - doxygen/graph
+      - main
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -23,24 +23,22 @@ jobs:
       # Runs a single command using the runners shell
       - uses: ammaraskar/sphinx-action@master
         with:
-          pre-build-command: "apt -y install doxygen && pip install -U sphinx && pip install pydata-sphinx-theme recommonmark breathe exhale"
-          build-command: "make html -e"
+          build-command: "make multibranch"
           docs-folder: "docsrc/"
       - name: Commit documentation changes
         run: |
-          git clone https://github.com/romulo-auccapuclla/blazingsql.git --branch doxygen/graph --single-branch doxygen/graph
-          cp -a docsrc/_build/html/. docs/
-          cp -a docsrc/doxyfiles/html/. docs/api/
-          cd docs
-          touch .nojekyll
+          git clone https://github.com/romulo-auccapuclla/blazingsql.git --branch main --single-branch main
+          cp -a docsrc/build/html/. docs/
+          touch docs/.nojekill
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git checkout --orphan gh-pages
           git add .
           git commit -m "Update documentation" -a || true
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          branch: main
+          branch: gh-pages
           directory: docs
           force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
