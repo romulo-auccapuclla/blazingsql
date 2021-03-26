@@ -161,6 +161,9 @@ smv_branch_whitelist = r'^(branch.|main).*$'
 # Multiversion realease
 smv_released_pattern = r'^(tags/v.*|heads/branch.*)$'
 
+# Multiversion configure remote
+smv_remote_whitelist = r'^origin/branch-.*$'
+
 def skip(app, what, name, obj, would_skip, options):
     if name == "__init__":
         return True
