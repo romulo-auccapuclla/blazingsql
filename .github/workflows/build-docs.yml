@@ -7,7 +7,7 @@ on:
   push:
     branches: 
       - main
-  
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -28,9 +28,12 @@ jobs:
         run: |
           pip install -r docsrc/requirements.txt
           sudo apt -y install doxygen
+      - name: Build docs
+        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           cd docsrc && make multiversion
+          git status
       - name: Commit documentation changes
         run: |
           git checkout --orphan gh-pages
@@ -38,7 +41,9 @@ jobs:
           cp -a docsrc/other/redirect.html docs/index.html
           touch docs/.nojekill
           git add docs
-          git commit -m "Update documentation" -a || true
+          git status
+          ls -la docs
+          git commit -m "Update documentation" || true
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
