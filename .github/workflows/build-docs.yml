@@ -31,7 +31,7 @@ jobs:
           cd docsrc && make multiversion
       - name: Commit documentation changes
         run: |
-          git clone https://github.com/romulo-auccapuclla/blazingsql.git --branch main --single-branch main
+          ls -la docsrc/build/html/
           cp -a docsrc/build/html/. docs/
           touch docs/.nojekill
           git config --local user.email "action@github.com"
