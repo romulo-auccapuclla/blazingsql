@@ -28,11 +28,11 @@ jobs:
         run: |
           pip install -r docsrc/requirements.txt
           sudo apt -y install doxygen
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           cd docsrc && make multiversion
       - name: Commit documentation changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git checkout --orphan gh-pages
           cp -a docsrc/build/html/. docs/
           cp -a docsrc/other/redirect.html docs/index.html
