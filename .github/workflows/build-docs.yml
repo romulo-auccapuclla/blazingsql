@@ -33,10 +33,10 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git checkout --orphan gh-pages
           cp -a docsrc/build/html/. docs/
           cp -a docsrc/other/redirect.html docs/index.html
           touch docs/.nojekill
-          git checkout --orphan gh-pages
           git add docs
           git commit -m "Update documentation" -a || true
       - name: Push changes
