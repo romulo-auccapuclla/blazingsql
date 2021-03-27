@@ -33,16 +33,14 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           cd docsrc && make multiversion
+          cp -a docsrc/build/html/. docs/
+          cp -a docsrc/other/redirect.html docs/index.html
           git status
       - name: Commit documentation changes
         run: |
-          git checkout --orphan gh-pages
-          cp -a docsrc/build/html/. docs/
-          cp -a docsrc/other/redirect.html docs/index.html
+          git checkout gh-pages
           touch docs/.nojekill
           git status
-          ls -la docs
-          git add docs
           ls -la docs
           git commit -m "Update documentation" || true
       - name: Push changes
