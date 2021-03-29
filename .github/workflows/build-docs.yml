@@ -19,6 +19,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
       # Configure python version
       - uses: actions/setup-python@v2
         with:
@@ -31,17 +34,17 @@ jobs:
       - name: Build docs
         run: |
           cd docsrc && make multiversion
-      - name: Commit documentation changes
+      - name: Copy build to docs
         run: |
-          git clone https://github.com/romulo-auccapuclla/blazingsql.git
-          cd blazingsql
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git checkout gh-pages
-          cp -a ../docsrc/build/html/. docs/
+          cp -a docsrc/build/html/. docs/
+          cp docsrc/other/redirect.html /docs/index.html
           touch docs/.nojekill
           ls -la docs
-          git commit -m "Update documentation" || true
+      - name: Commit documentation changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Update documentation" -a || true
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
