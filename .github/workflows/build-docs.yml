@@ -36,6 +36,8 @@ jobs:
           cd docsrc && make multiversion
       - name: Copy build to docs
         run: |
+          ls -la docsrc/build/html
+          rm -rf docs
           cp -a docsrc/build/html/. docs/
           cp docsrc/other/redirect.html docs/index.html
           touch docs/.nojekill
