@@ -34,15 +34,12 @@ jobs:
       - name: Commit documentation changes
         run: |
           git clone https://github.com/romulo-auccapuclla/blazingsql.git
+          cd blazingsql
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          ls -la
-          ls -la blazingsql
-          cd blazingsql
           git checkout gh-pages
-          cp -a docsrc/build/html/. docs/
+          cp -a ../docsrc/build/html/. docs/
           touch docs/.nojekill
-          git status
           ls -la docs
           git commit -m "Update documentation" || true
       - name: Push changes
