@@ -12,6 +12,9 @@
 #
 import os
 import sys
+import re
+from sh.contrib import git
+
 sys.path.insert(0, os.path.abspath('../../pyblazing'))
 sys.setrecursionlimit(1500)
 
@@ -33,10 +36,26 @@ author = 'BlazingDB, Inc.'
 # for a list of supported languages.
 language = "en"
 
-# The full version, including alpha/beta/rc tags
-version = '0.18'
-release = f'v{version}'
+# detect version
+git_branch = os.getenv('SPHINX_GIT_BRANCH', default=None)
+if not git_branch:
+    # If SPHINX_GIT_BRANCH environment variable is not given, run git
+    # to determine branch name
+    git_branch = [
+        re.sub(r'origin/', '', x.lstrip(' ')) for x in str(
+            git.branch('-r', '--contains', 'HEAD')).rstrip('\n').split('\n')
+    ]
+    git_branch = [x for x in git_branch if 'HEAD' not in x]
+else:
+    git_branch = [git_branch]
+print('git_branch = {}'.format(git_branch[0]))
 
+# The full version, including alpha/beta/rc tags
+version = 'dev'
+if 'branch-' in git_branch:
+    version = git_branch.replace('branch-','')
+
+release = f'v{version}'
 
 # -- General configuration ---------------------------------------------------
 
@@ -46,14 +65,13 @@ release = f'v{version}'
 extensions = ['recommonmark',
                 "sphinx_multiversion",
                 'sphinx.ext.extlinks',
-                'sphinx.ext.todo',
                 'sphinx.ext.autodoc',
                 'sphinx.ext.autosummary',
                 'breathe',
                 'exhale'
                 ]
 
-autosummary_generate = True 
+autosummary_generate = False 
 autosummary_imported_members = False
 
 # Setup the exhale extension
@@ -89,7 +107,7 @@ highlight_language = 'py'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['build', 'Thumbs.db', '.DS_Store']
 
 
 # -- Options for HTML output -------------------------------------------------

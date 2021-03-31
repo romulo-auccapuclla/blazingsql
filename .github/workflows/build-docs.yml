@@ -36,17 +36,13 @@ jobs:
           cd docsrc && make multiversion
       - name: Copy build to docs
         run: |
-          ls -la docsrc/build/html
-          rm -rf docs
           cp -a docsrc/build/html/. docs/
           cp docsrc/other/redirect.html docs/index.html
           touch docs/.nojekill
-          ls -la docs
       - name: Commit documentation changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git status
           git add docs
           git commit -m "Update docs" -a || true
       - name: Push changes
