@@ -65,13 +65,14 @@ release = f'v{version}'
 extensions = ['recommonmark',
                 "sphinx_multiversion",
                 'sphinx.ext.extlinks',
+                'sphinx.ext.todo',
                 'sphinx.ext.autodoc',
                 'sphinx.ext.autosummary',
                 'breathe',
                 'exhale'
                 ]
 
-autosummary_generate = False 
+autosummary_generate = True 
 autosummary_imported_members = False
 
 # Setup the exhale extension
@@ -158,7 +159,7 @@ html_theme_options = {
 }
 
 extlinks = {'io': (f'https://github.com/rapidsai/cudf/tree/branch-{version}/cpp/src/%s',
-                      'cuIO ')}
+                    'cuIO ')}
 
 html_context = {
     "github_user": "blazingdb",
