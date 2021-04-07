@@ -71,7 +71,7 @@ extensions = ['recommonmark',
                 'exhale'
                 ]
 
-autosummary_generate = False 
+autosummary_generate = True 
 autosummary_imported_members = False
 
 # Setup the exhale extension
