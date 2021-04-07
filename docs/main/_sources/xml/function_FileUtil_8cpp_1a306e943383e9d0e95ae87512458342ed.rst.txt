@@ -1,0 +1,13 @@
+.. _exhale_function_FileUtil_8cpp_1a306e943383e9d0e95ae87512458342ed:
+
+Function moveAndReplaceFilesThread
+==================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: moveAndReplaceFilesThread(long long&, std::mutex&, std::vector<Uri>&, std::vector<Uri>&, int&, int&)

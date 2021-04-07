@@ -1,0 +1,26 @@
+.. _exhale_struct_structimemstream:
+
+Struct imemstream
+=================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorageOutputStream.cpp`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Types
+**********
+
+- ``public membuf`` (:ref:`exhale_struct_structmembuf`)
+- ``public iostream``
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: imemstream
+   :members:
+   :protected-members:
+   :undoc-members:

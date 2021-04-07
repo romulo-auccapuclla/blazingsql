@@ -1,0 +1,55 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3ReadableFile.h:
+
+File S3ReadableFile.h
+=====================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/private``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/private/S3ReadableFile.h``)
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``arrow/io/interfaces.h``
+
+- ``arrow/status.h``
+
+- ``aws/core/utils/memory/stl/AWSString.h``
+
+- ``aws/s3/S3Client.h``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3FileSystem_p.h`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3OutputStream.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3ReadableFile.cpp`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classS3ReadableFile`
+

@@ -1,0 +1,81 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingException.h:
+
+File BlazingException.h
+=======================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling>` (``/home/runner/work/blazingsql/blazingsql/io/src/ExceptionHandling``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/ExceptionHandling/BlazingException.h``)
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``FileSystem/Uri.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Uri.h`)
+
+- ``exception``
+
+- ``string``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingException.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingThread.h`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_FileSystemManager_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorage_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorageOutputStream.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_LocalFileSystem_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3FileSystem_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3OutputStream.cpp`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classBlazingException`
+
+- :ref:`exhale_class_classBlazingFileNotFoundException`
+
+- :ref:`exhale_class_classBlazingFileSystemException`
+
+- :ref:`exhale_class_classBlazingInvalidPathException`
+
+- :ref:`exhale_class_classBlazingInvalidPermissionsFileException`
+
+- :ref:`exhale_class_classBlazingIOException`
+
+- :ref:`exhale_class_classBlazingOutOfMemoryException`
+
+- :ref:`exhale_class_classBlazingOutOfRangeException`
+
+- :ref:`exhale_class_classBlazingS3Exception`
+
+- :ref:`exhale_class_classBlazingSocketException`
+

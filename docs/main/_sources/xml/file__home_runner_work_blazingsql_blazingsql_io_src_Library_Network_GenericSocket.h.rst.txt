@@ -1,0 +1,56 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_Library_Network_GenericSocket.h:
+
+File GenericSocket.h
+====================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_Library_Network>` (``/home/runner/work/blazingsql/blazingsql/io/src/Library/Network``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/Library/Network/GenericSocket.h``)
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``string``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_TcpOutput.h`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Network_NormalSyncSocket.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_Library`
+
+- :ref:`namespace_Library__Network`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classLibrary_1_1Network_1_1GenericSocket`
+

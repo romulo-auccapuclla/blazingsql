@@ -1,0 +1,57 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Uri.cpp:
+
+File Uri.cpp
+============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/Uri.cpp``)
+----------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``Uri.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Uri.h`)
+
+- ``Util/StringUtil.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_StringUtil.h`)
+
+- ``iostream``
+
+
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structMatchResult`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_Uri_8cpp_1a4e4dc4d1521eec9bb8f1bfae496711b4`
+
+
+Variables
+---------
+
+
+- :ref:`exhale_variable_Uri_8cpp_1aae600e8d8999270f88ff6dfbe27b6588`
+

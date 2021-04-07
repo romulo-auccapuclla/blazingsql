@@ -1,0 +1,49 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_S3FileSystem.h:
+
+File S3FileSystem.h
+===================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/S3FileSystem.h``)
+-----------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``FileSystem/FileSystemInterface.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemInterface.h`)
+
+- ``memory``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3FileSystem_p.h`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_S3FileSystem.cpp`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classS3FileSystem`
+

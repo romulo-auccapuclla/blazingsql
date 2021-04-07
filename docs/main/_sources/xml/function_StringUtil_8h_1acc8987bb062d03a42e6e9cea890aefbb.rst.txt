@@ -1,0 +1,13 @@
+.. _exhale_function_StringUtil_8h_1acc8987bb062d03a42e6e9cea890aefbb:
+
+Function match(const char \*, const char \*)
+============================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_StringUtil.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: match(const char *, const char *)

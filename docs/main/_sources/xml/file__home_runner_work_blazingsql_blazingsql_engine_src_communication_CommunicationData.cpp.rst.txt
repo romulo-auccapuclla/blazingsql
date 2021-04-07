@@ -1,0 +1,41 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_engine_src_communication_CommunicationData.cpp:
+
+File CommunicationData.cpp
+==========================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_engine_src_communication>` (``/home/runner/work/blazingsql/blazingsql/engine/src/communication``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/engine/src/communication/CommunicationData.cpp``)
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``CommunicationData.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_communication_CommunicationData.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_ral`
+
+- :ref:`namespace_ral__communication`
+

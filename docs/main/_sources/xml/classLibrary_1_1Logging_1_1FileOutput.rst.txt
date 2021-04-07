@@ -1,0 +1,25 @@
+.. _exhale_class_classLibrary_1_1Logging_1_1FileOutput:
+
+Class FileOutput
+================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_FileOutput.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public Library::Logging::GenericOutput`` (:ref:`exhale_class_classLibrary_1_1Logging_1_1GenericOutput`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: Library::Logging::FileOutput
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,16 @@
+.. _exhale_class_classFileSystemEntity:
+
+Class FileSystemEntity
+======================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemEntity.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: FileSystemEntity
+   :members:
+   :protected-members:
+   :undoc-members:

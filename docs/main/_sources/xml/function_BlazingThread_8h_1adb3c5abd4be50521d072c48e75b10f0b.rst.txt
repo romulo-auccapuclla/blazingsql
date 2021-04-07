@@ -1,0 +1,13 @@
+.. _exhale_function_BlazingThread_8h_1adb3c5abd4be50521d072c48e75b10f0b:
+
+Template Function detail::apply
+===============================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingThread.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: detail::apply(F&&, T *, Tuple&&)

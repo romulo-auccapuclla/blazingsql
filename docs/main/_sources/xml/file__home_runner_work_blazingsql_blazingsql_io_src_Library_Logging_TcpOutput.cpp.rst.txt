@@ -1,0 +1,43 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_TcpOutput.cpp:
+
+File TcpOutput.cpp
+==================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging>` (``/home/runner/work/blazingsql/blazingsql/io/src/Library/Logging``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/Library/Logging/TcpOutput.cpp``)
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``Library/Logging/TcpOutput.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_TcpOutput.h`)
+
+- ``stdlib.h``
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_Library`
+
+- :ref:`namespace_Library__Logging`
+

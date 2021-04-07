@@ -1,0 +1,13 @@
+.. _exhale_function_FileUtil_8cpp_1ae452466790c5da72c91531420aa567d9:
+
+Function _createTableFolderCreationThread
+=========================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: _createTableFolderCreationThread(std::vector<Uri>&, Uri&, int&, std::mutex&, Uri&, std::vector<std::string>&, bool&)

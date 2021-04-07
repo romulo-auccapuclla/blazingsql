@@ -1,0 +1,13 @@
+.. _exhale_function_Uri_8cpp_1a4e4dc4d1521eec9bb8f1bfae496711b4:
+
+Function checkMatch
+===================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Uri.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: checkMatch(const std::string)

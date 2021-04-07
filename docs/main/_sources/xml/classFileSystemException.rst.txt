@@ -1,0 +1,25 @@
+.. _exhale_class_classFileSystemException:
+
+Class FileSystemException
+=========================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemException.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public runtime_error``
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: FileSystemException
+   :members:
+   :protected-members:
+   :undoc-members:

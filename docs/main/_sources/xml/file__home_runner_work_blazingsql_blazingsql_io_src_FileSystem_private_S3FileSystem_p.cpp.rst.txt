@@ -1,0 +1,122 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3FileSystem_p.cpp:
+
+File S3FileSystem_p.cpp
+=======================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/private``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/private/S3FileSystem_p.cpp``)
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``ExceptionHandling/BlazingException.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingException.h`)
+
+- ``ExceptionHandling/BlazingThread.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingThread.h`)
+
+- ``Library/Logging/Logger.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_Logger.h`)
+
+- ``S3FileSystem_p.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3FileSystem_p.h`)
+
+- ``Util/StringUtil.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_StringUtil.h`)
+
+- ``arrow/buffer.h``
+
+- ``arrow/io/api.h``
+
+- ``aws/core/Aws.h``
+
+- ``aws/core/auth/AWSCredentialsProvider.h``
+
+- ``aws/core/auth/AWSCredentialsProviderChain.h``
+
+- ``aws/core/client/ClientConfiguration.h``
+
+- ``aws/core/utils/StringUtils.h``
+
+- ``aws/core/utils/memory/stl/AWSAllocator.h``
+
+- ``aws/s3-encryption/CryptoConfiguration.h``
+
+- ``aws/s3-encryption/S3EncryptionClient.h``
+
+- ``aws/s3-encryption/materials/KMSEncryptionMaterials.h``
+
+- ``aws/s3-encryption/materials/SimpleEncryptionMaterials.h``
+
+- ``aws/s3/model/BucketLocationConstraint.h``
+
+- ``aws/s3/model/CompleteMultipartUploadRequest.h``
+
+- ``aws/s3/model/CompletedMultipartUpload.h``
+
+- ``aws/s3/model/CopyObjectRequest.h``
+
+- ``aws/s3/model/CopyObjectResult.h``
+
+- ``aws/s3/model/CreateMultipartUploadRequest.h``
+
+- ``aws/s3/model/DeleteObjectRequest.h``
+
+- ``aws/s3/model/DeleteObjectResult.h``
+
+- ``aws/s3/model/GetBucketLocationRequest.h``
+
+- ``aws/s3/model/GetObjectRequest.h``
+
+- ``aws/s3/model/HeadBucketRequest.h``
+
+- ``aws/s3/model/HeadObjectRequest.h``
+
+- ``aws/s3/model/ListObjectsRequest.h``
+
+- ``aws/s3/model/ListObjectsV2Request.h``
+
+- ``aws/s3/model/ListObjectsV2Result.h``
+
+- ``aws/s3/model/Object.h``
+
+- ``aws/s3/model/PutObjectRequest.h``
+
+- ``aws/s3/model/PutObjectResult.h``
+
+- ``aws/s3/model/UploadPartRequest.h``
+
+- ``chrono``
+
+- ``iostream``
+
+
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structRegionResult`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_S3FileSystem__p_8cpp_1afbd0c68e2c5b1ba19b511fb63276f21c`
+
+- :ref:`exhale_function_S3FileSystem__p_8cpp_1a28af4ddc4893d14835166be8b57028f9`
+

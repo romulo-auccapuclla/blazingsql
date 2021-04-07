@@ -1,0 +1,13 @@
+.. _exhale_typedef_FileFilter_8h_1ac28088f962afac6529ebebee8ee2eb34:
+
+Typedef FileFilter
+==================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileFilter.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: FileFilter

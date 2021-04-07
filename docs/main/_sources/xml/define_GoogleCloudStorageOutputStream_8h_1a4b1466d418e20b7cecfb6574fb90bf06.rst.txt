@@ -1,0 +1,13 @@
+.. _exhale_define_GoogleCloudStorageOutputStream_8h_1a4b1466d418e20b7cecfb6574fb90bf06:
+
+Define STORAGE_CLIENT_VERSION_MAJOR
+===================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorageOutputStream.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: STORAGE_CLIENT_VERSION_MAJOR

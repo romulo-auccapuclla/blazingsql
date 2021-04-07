@@ -1,0 +1,26 @@
+.. _exhale_class_classFileSystemRepository:
+
+Class FileSystemRepository
+==========================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemRepository.h`
+
+
+Nested Relationships
+--------------------
+
+
+Nested Types
+************
+
+- :ref:`exhale_class_classFileSystemRepository_1_1Private`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: FileSystemRepository
+   :members:
+   :protected-members:
+   :undoc-members:

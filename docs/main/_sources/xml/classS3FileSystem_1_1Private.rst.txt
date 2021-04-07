@@ -1,0 +1,22 @@
+.. _exhale_class_classS3FileSystem_1_1Private:
+
+Class S3FileSystem::Private
+===========================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3FileSystem_p.h`
+
+
+Nested Relationships
+--------------------
+
+This class is a nested type of :ref:`exhale_class_classS3FileSystem`.
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: S3FileSystem::Private
+   :members:
+   :protected-members:
+   :undoc-members:

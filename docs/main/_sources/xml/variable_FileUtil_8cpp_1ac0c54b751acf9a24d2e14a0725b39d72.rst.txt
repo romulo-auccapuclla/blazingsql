@@ -1,0 +1,13 @@
+.. _exhale_variable_FileUtil_8cpp_1ac0c54b751acf9a24d2e14a0725b39d72:
+
+Variable SLEEP_BASE_TIME
+========================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SLEEP_BASE_TIME

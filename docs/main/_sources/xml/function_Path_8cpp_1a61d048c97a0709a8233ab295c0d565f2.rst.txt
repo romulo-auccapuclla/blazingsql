@@ -1,0 +1,13 @@
+.. _exhale_function_Path_8cpp_1a61d048c97a0709a8233ab295c0d565f2:
+
+Function hasBeginSlashChar
+==========================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Path.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: hasBeginSlashChar(const std::string&)

@@ -1,0 +1,25 @@
+.. _exhale_class_classBlazingInvalidPermissionsFileException:
+
+Class BlazingInvalidPermissionsFileException
+============================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingException.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public BlazingFileSystemException`` (:ref:`exhale_class_classBlazingFileSystemException`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: BlazingInvalidPermissionsFileException
+   :members:
+   :protected-members:
+   :undoc-members:

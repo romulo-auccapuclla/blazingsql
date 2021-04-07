@@ -1,0 +1,13 @@
+.. _exhale_define_GoogleCloudStorageReadableFile_8h_1ad6a5fad5f7cd630c304f48aa904d46a5:
+
+Define GOOGLE_CLOUD_CPP_GOOGLE_CLOUD_STORAGE_VERSION_INFO_H
+===========================================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorageReadableFile.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: GOOGLE_CLOUD_CPP_GOOGLE_CLOUD_STORAGE_VERSION_INFO_H

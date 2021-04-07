@@ -1,0 +1,95 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingThread.h:
+
+File BlazingThread.h
+====================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling>` (``/home/runner/work/blazingsql/blazingsql/io/src/ExceptionHandling``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/ExceptionHandling/BlazingThread.h``)
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``BlazingException.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingException.h`)
+
+- ``BlazingExceptionHolder.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingExceptionHolder.h`)
+
+- ``functional``
+
+- ``thread``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_bmr_MemoryMonitor.h`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_communication_CommunicationInterface_messageListener.hpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_communication_CommunicationInterface_messageSender.hpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_execution_graph_logic_controllers_taskflow_executor.h`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_execution_graph_logic_controllers_BatchJoinProcessing.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_execution_graph_logic_controllers_BatchProcessing.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_io_data_parser_metadata_parquet_metadata.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_io_data_parser_ParquetParser.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_io_DataLoader.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingThread.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorage_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_LocalFileSystem_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3FileSystem_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_detail`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classBlazingMutableThread`
+
+- :ref:`exhale_class_classBlazingThread`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_BlazingThread_8h_1adb3c5abd4be50521d072c48e75b10f0b`
+
+- :ref:`exhale_function_BlazingThread_8h_1a58b0e83b5bbb0f9b9021e9390f8297bd`
+

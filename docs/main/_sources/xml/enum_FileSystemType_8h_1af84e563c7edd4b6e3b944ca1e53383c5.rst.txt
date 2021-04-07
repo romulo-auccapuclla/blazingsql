@@ -1,0 +1,13 @@
+.. _exhale_enum_FileSystemType_8h_1af84e563c7edd4b6e3b944ca1e53383c5:
+
+Enum FileType
+=============
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemType.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: FileType

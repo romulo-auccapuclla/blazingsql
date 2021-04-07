@@ -1,0 +1,22 @@
+.. _exhale_class_classS3OutputStream_1_1S3OutputStreamImpl:
+
+Class S3OutputStream::S3OutputStreamImpl
+========================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3OutputStream.cpp`
+
+
+Nested Relationships
+--------------------
+
+This class is a nested type of :ref:`exhale_class_classS3OutputStream`.
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: S3OutputStream::S3OutputStreamImpl
+   :members:
+   :protected-members:
+   :undoc-members:

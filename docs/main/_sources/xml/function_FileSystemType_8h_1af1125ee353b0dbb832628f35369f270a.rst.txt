@@ -1,0 +1,13 @@
+.. _exhale_function_FileSystemType_8h_1af1125ee353b0dbb832628f35369f270a:
+
+Function fileTypeName(FileType)
+===============================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemType.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: fileTypeName(FileType)

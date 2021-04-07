@@ -1,0 +1,76 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.cpp:
+
+File FileSystemConnection.cpp
+=============================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/FileSystemConnection.cpp``)
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``FileSystemConnection.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.h`)
+
+- ``Util/StringUtil.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_StringUtil.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_GoogleCloudStorageConnection`
+
+- :ref:`namespace_HadoopFileSystemConnection`
+
+- :ref:`namespace_S3FileSystemConnection`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1ab56d2a0a334b911cc8f9fe5ea9bb4187`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a3f692a8181148fc38b788ac92afdc81e`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a5d2b19509a3a864eb67b145481d0d33c`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a1a27c1cca3dd2801760852c1cea6a751`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1ae8626942dd6db0dc4334c7a92926797d`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1aa85cc82d62c75d6148f18b18c2a49fe9`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a2a9ded94b848354c3b9b0f57794c204f`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a3336c46e056874c91c978b237fd25ac3`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a64f711560dd4670ef7de89ffb8b84f49`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1abaac9783727c0c87af6e964419131723`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a160d7141dd2c57259ea95d66f0fde182`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a47abdccd1ab95641274734e53b1c5696`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1ac38f7735f573d98b96919fec8a45955e`
+

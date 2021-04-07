@@ -1,0 +1,13 @@
+.. _exhale_variable_FileUtil_8cpp_1a00f3d91279b76f41c9e926a1b5dd59ca:
+
+Variable FILE_RETRY_DELAY
+=========================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: FILE_RETRY_DELAY

@@ -1,0 +1,37 @@
+
+.. _namespace_HadoopFileSystemConnection:
+
+Namespace HadoopFileSystemConnection
+====================================
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+
+
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_FileSystemConnection_8h_1a0b8cafdde22ab20ebe99d488e2d4fb19`
+
+- :ref:`exhale_enum_FileSystemConnection_8h_1a9f793def83802e34451360b9b8d3e2bb`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a1a27c1cca3dd2801760852c1cea6a751`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1ae8626942dd6db0dc4334c7a92926797d`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1aa85cc82d62c75d6148f18b18c2a49fe9`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a2a9ded94b848354c3b9b0f57794c204f`
+
+- :ref:`exhale_function_FileSystemConnection_8cpp_1a3336c46e056874c91c978b237fd25ac3`

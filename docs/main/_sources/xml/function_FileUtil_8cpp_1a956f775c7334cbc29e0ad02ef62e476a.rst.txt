@@ -1,0 +1,13 @@
+.. _exhale_function_FileUtil_8cpp_1a956f775c7334cbc29e0ad02ef62e476a:
+
+Function _removeThread
+======================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: _removeThread(long long&, std::mutex&, std::vector<Uri>&, int&, int&)

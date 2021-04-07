@@ -1,0 +1,42 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_HadoopFileSystem_p.cpp:
+
+File HadoopFileSystem_p.cpp
+===========================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/private``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/private/HadoopFileSystem_p.cpp``)
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``HadoopFileSystem_p.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_HadoopFileSystem_p.h`)
+
+- ``Util/StringUtil.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_StringUtil.h`)
+
+- ``arrow/buffer.h``
+
+- ``arrow/io/api.h``
+
+- ``arrow/status.h``
+
+- ``iostream``
+
+
+
+
+

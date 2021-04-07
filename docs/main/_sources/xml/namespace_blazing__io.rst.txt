@@ -1,0 +1,20 @@
+
+.. _namespace_blazing__io:
+
+Namespace blazing::io
+=====================
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classblazing_1_1io_1_1FileReaderInterface`

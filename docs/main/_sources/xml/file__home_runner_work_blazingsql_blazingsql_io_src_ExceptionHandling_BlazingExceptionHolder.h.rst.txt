@@ -1,0 +1,47 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingExceptionHolder.h:
+
+File BlazingExceptionHolder.h
+=============================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling>` (``/home/runner/work/blazingsql/blazingsql/io/src/ExceptionHandling``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/ExceptionHandling/BlazingExceptionHolder.h``)
+----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``exception``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingExceptionHolder.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingThread.h`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classBlazingExceptionHolder`
+

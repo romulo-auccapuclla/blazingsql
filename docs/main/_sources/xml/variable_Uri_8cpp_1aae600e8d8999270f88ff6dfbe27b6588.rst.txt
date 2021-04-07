@@ -1,0 +1,13 @@
+.. _exhale_variable_Uri_8cpp_1aae600e8d8999270f88ff6dfbe27b6588:
+
+Variable SCHEME_AUTH_SPLITTER
+=============================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Uri.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: SCHEME_AUTH_SPLITTER

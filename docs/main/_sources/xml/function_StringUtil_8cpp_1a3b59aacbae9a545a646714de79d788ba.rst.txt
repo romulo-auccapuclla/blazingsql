@@ -1,0 +1,13 @@
+.. _exhale_function_StringUtil_8cpp_1a3b59aacbae9a545a646714de79d788ba:
+
+Function removeFileNamespace(const std::string&)
+================================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_StringUtil.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: removeFileNamespace(const std::string&)

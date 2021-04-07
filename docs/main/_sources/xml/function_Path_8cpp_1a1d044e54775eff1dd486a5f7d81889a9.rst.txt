@@ -1,0 +1,13 @@
+.. _exhale_function_Path_8cpp_1a1d044e54775eff1dd486a5f7d81889a9:
+
+Function countEndSlashChars
+===========================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Path.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: countEndSlashChars(const std::string&)

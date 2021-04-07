@@ -1,0 +1,25 @@
+.. _exhale_class_classBlazingThread:
+
+Class BlazingThread
+===================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingThread.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Derived Type
+************
+
+- ``public BlazingMutableThread`` (:ref:`exhale_class_classBlazingMutableThread`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: BlazingThread
+   :members:
+   :protected-members:
+   :undoc-members:

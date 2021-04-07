@@ -1,0 +1,13 @@
+.. _exhale_function_FileSystemConnection_8cpp_1a5d2b19509a3a864eb67b145481d0d33c:
+
+Function GoogleCloudStorageConnection::verifyConnectionProperties
+=================================================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: GoogleCloudStorageConnection::verifyConnectionProperties(const std::string&, const std::string&, bool, const std::string&)

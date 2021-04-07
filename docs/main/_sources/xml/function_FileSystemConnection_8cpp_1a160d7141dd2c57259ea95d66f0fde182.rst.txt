@@ -1,0 +1,13 @@
+.. _exhale_function_FileSystemConnection_8cpp_1a160d7141dd2c57259ea95d66f0fde182:
+
+Function S3FileSystemConnection::encryptionTypeFromName
+=======================================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: S3FileSystemConnection::encryptionTypeFromName(const std::string&)

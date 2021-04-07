@@ -1,0 +1,16 @@
+.. _exhale_class_classDataParser:
+
+Class DataParser
+================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_engine_src_io_data_parser_DataParser.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: DataParser
+   :members:
+   :protected-members:
+   :undoc-members:

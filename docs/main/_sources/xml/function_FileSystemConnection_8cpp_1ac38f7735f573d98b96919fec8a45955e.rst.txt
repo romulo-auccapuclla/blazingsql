@@ -1,0 +1,13 @@
+.. _exhale_function_FileSystemConnection_8cpp_1ac38f7735f573d98b96919fec8a45955e:
+
+Function S3FileSystemConnection::verifyConnectionProperties
+===========================================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: S3FileSystemConnection::verifyConnectionProperties(const std::string&, S3FileSystemConnection::EncryptionType, const std::string&, const std::string&, const std::string&, const std::string&, const std::string&, const std::string&)

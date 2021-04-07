@@ -1,0 +1,13 @@
+.. _exhale_enum_FileSystemConnection_8h_1ac455fb461f33a0237001449513832ba2:
+
+Enum EncryptionType
+===================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: S3FileSystemConnection::EncryptionType

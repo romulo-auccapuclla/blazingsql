@@ -1,0 +1,16 @@
+.. _exhale_class_classBlazingContext:
+
+Class BlazingContext
+====================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Config_BlazingContext.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: BlazingContext
+   :members:
+   :protected-members:
+   :undoc-members:

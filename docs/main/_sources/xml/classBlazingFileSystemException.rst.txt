@@ -1,0 +1,34 @@
+.. _exhale_class_classBlazingFileSystemException:
+
+Class BlazingFileSystemException
+================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingException.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public BlazingIOException`` (:ref:`exhale_class_classBlazingIOException`)
+
+
+Derived Types
+*************
+
+- ``public BlazingFileNotFoundException`` (:ref:`exhale_class_classBlazingFileNotFoundException`)
+- ``public BlazingInvalidPathException`` (:ref:`exhale_class_classBlazingInvalidPathException`)
+- ``public BlazingInvalidPermissionsFileException`` (:ref:`exhale_class_classBlazingInvalidPermissionsFileException`)
+- ``public BlazingS3Exception`` (:ref:`exhale_class_classBlazingS3Exception`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: BlazingFileSystemException
+   :members:
+   :protected-members:
+   :undoc-members:

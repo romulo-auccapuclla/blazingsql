@@ -1,0 +1,13 @@
+.. _exhale_function_EncryptionUtil_8cpp_1af70f693d8a1f26b5672b6c5f16a38f76:
+
+Function EncryptionUtil::encrypt
+================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_EncryptionUtil.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: EncryptionUtil::encrypt(const std::string&)

@@ -1,0 +1,13 @@
+.. _exhale_enum_FileSystemConnection_8h_1a0b8cafdde22ab20ebe99d488e2d4fb19:
+
+Enum ConnectionProperty
+=======================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: HadoopFileSystemConnection::ConnectionProperty

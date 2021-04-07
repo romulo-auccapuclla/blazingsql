@@ -1,0 +1,75 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_Logger.h:
+
+File Logger.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging>` (``/home/runner/work/blazingsql/blazingsql/io/src/Library/Logging``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/Library/Logging/Logger.h``)
+----------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``Library/Logging/BlazingLogger.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_BlazingLogger.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Config_BlazingContext.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemManager.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_FileSystemManager_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_FileSystemRepository_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorage_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorageOutputStream.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorageReadableFile.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_LocalFileSystem_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3FileSystem_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3OutputStream.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3ReadableFile.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_CoutOutput.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_FileOutput.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_Logger.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.cpp`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_Library`
+
+- :ref:`namespace_Library__Logging`
+

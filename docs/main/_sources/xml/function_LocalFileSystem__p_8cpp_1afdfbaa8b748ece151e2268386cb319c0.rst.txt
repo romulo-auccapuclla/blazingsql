@@ -1,0 +1,13 @@
+.. _exhale_function_LocalFileSystem__p_8cpp_1afdfbaa8b748ece151e2268386cb319c0:
+
+Function openDirExceptions
+==========================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_LocalFileSystem_p.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: openDirExceptions(Uri)

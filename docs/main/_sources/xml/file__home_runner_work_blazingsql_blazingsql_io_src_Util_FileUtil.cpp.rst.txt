@@ -1,0 +1,96 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.cpp:
+
+File FileUtil.cpp
+=================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_Util>` (``/home/runner/work/blazingsql/blazingsql/io/src/Util``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/Util/FileUtil.cpp``)
+---------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``Config/BlazingContext.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Config_BlazingContext.h`)
+
+- ``ExceptionHandling/BlazingThread.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingThread.h`)
+
+- ``FileSystem/FileSystemInterface.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemInterface.h`)
+
+- ``FileSystem/Path.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Path.h`)
+
+- ``FileSystem/Uri.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Uri.h`)
+
+- ``FileUtil.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.h`)
+
+- ``Library/Logging/Logger.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_Logger.h`)
+
+- ``Util/StringUtil.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_StringUtil.h`)
+
+- ``cerrno``
+
+- ``chrono``
+
+- ``dirent.h``
+
+- ``fcntl.h``
+
+- ``fstream``
+
+- ``iostream``
+
+- ``libgen.h``
+
+- ``stddef.h``
+
+- ``stdio.h``
+
+- ``stdlib.h``
+
+- ``string.h``
+
+- ``sys/stat.h``
+
+- ``sys/syscall.h``
+
+- ``unistd.h``
+
+
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_FileUtil_8cpp_1ae452466790c5da72c91531420aa567d9`
+
+- :ref:`exhale_function_FileUtil_8cpp_1a5c83d3a714039a151b3b7b9bfaf50885`
+
+- :ref:`exhale_function_FileUtil_8cpp_1a956f775c7334cbc29e0ad02ef62e476a`
+
+- :ref:`exhale_function_FileUtil_8cpp_1a306e943383e9d0e95ae87512458342ed`
+
+
+Variables
+---------
+
+
+- :ref:`exhale_variable_FileUtil_8cpp_1a00f3d91279b76f41c9e926a1b5dd59ca`
+
+- :ref:`exhale_variable_FileUtil_8cpp_1ac0c54b751acf9a24d2e14a0725b39d72`
+

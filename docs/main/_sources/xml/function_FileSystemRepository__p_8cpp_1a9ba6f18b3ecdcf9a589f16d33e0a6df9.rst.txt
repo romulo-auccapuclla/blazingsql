@@ -1,0 +1,13 @@
+.. _exhale_function_FileSystemRepository__p_8cpp_1a9ba6f18b3ecdcf9a589f16d33e0a6df9:
+
+Function readString
+===================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_FileSystemRepository_p.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: readString(std::ifstream&, std::string&)

@@ -1,0 +1,41 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileReaders_FileReaderInterface.cpp:
+
+File FileReaderInterface.cpp
+============================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileReaders>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileReaders``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileReaders/FileReaderInterface.cpp``)
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``FileReaderInterface.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileReaders_FileReaderInterface.h`)
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_blazing`
+
+- :ref:`namespace_blazing__io`
+

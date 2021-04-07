@@ -1,0 +1,77 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.h:
+
+File FileSystemConnection.h
+===========================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/FileSystemConnection.h``)
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``FileSystem/FileSystemType.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemType.h`)
+
+- ``map``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemEntity.h`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemInterface.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_GoogleCloudStorageConnection`
+
+- :ref:`namespace_HadoopFileSystemConnection`
+
+- :ref:`namespace_S3FileSystemConnection`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classFileSystemConnection`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_FileSystemConnection_8h_1ae411e7898e766cd6d8cd83deaff30f1b`
+
+- :ref:`exhale_enum_FileSystemConnection_8h_1a0b8cafdde22ab20ebe99d488e2d4fb19`
+
+- :ref:`exhale_enum_FileSystemConnection_8h_1a9f793def83802e34451360b9b8d3e2bb`
+
+- :ref:`exhale_enum_FileSystemConnection_8h_1a0e5b31368325ae9c482418f7f508243c`
+
+- :ref:`exhale_enum_FileSystemConnection_8h_1ac455fb461f33a0237001449513832ba2`
+

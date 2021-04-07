@@ -1,0 +1,13 @@
+.. _exhale_enum_LoggingLevel_8h_1a6ef449bc069d18da23cba0b969411aa8:
+
+Enum LoggingLevel
+=================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_LoggingLevel.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: Library::Logging::LoggingLevel

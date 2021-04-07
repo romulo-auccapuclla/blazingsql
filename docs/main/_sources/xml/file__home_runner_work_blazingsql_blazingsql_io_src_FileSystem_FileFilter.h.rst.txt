@@ -1,0 +1,68 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileFilter.h:
+
+File FileFilter.h
+=================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/FileFilter.h``)
+---------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``FileSystem/FileStatus.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileStatus.h`)
+
+- ``functional``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileFilter.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemInterface.h`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemManager.h`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structDirsFilter`
+
+- :ref:`exhale_struct_structFileOrFolderFilter`
+
+- :ref:`exhale_struct_structFilesFilter`
+
+- :ref:`exhale_struct_structFileTypeWildcardFilter`
+
+- :ref:`exhale_struct_structWildcardFilter`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_FileFilter_8h_1ac28088f962afac6529ebebee8ee2eb34`
+
+- :ref:`exhale_typedef_FileFilter_8h_1a7352db26c6e910e07b513546f0fa7a58`
+

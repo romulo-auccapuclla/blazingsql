@@ -1,0 +1,27 @@
+.. _exhale_class_classLibrary_1_1Logging_1_1GenericOutput:
+
+Class GenericOutput
+===================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_GenericOutput.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Derived Types
+*************
+
+- ``public Library::Logging::CoutOutput`` (:ref:`exhale_class_classLibrary_1_1Logging_1_1CoutOutput`)
+- ``public Library::Logging::FileOutput`` (:ref:`exhale_class_classLibrary_1_1Logging_1_1FileOutput`)
+- ``public Library::Logging::TcpOutput`` (:ref:`exhale_class_classLibrary_1_1Logging_1_1TcpOutput`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: Library::Logging::GenericOutput
+   :members:
+   :protected-members:
+   :undoc-members:

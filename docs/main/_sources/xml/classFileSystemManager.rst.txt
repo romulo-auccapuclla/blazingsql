@@ -1,0 +1,26 @@
+.. _exhale_class_classFileSystemManager:
+
+Class FileSystemManager
+=======================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemManager.h`
+
+
+Nested Relationships
+--------------------
+
+
+Nested Types
+************
+
+- :ref:`exhale_class_classFileSystemManager_1_1Private`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: FileSystemManager
+   :members:
+   :protected-members:
+   :undoc-members:

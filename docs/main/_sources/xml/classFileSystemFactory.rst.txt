@@ -1,0 +1,16 @@
+.. _exhale_class_classFileSystemFactory:
+
+Class FileSystemFactory
+=======================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_FileSystemFactory.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: FileSystemFactory
+   :members:
+   :protected-members:
+   :undoc-members:

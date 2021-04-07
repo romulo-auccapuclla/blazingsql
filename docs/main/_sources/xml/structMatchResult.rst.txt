@@ -1,0 +1,16 @@
+.. _exhale_struct_structMatchResult:
+
+Struct MatchResult
+==================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Uri.cpp`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: MatchResult
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,28 @@
+.. _exhale_class_classFileSystemInterface:
+
+Class FileSystemInterface
+=========================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemInterface.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Derived Types
+*************
+
+- ``public GoogleCloudStorage`` (:ref:`exhale_class_classGoogleCloudStorage`)
+- ``public HadoopFileSystem`` (:ref:`exhale_class_classHadoopFileSystem`)
+- ``public LocalFileSystem`` (:ref:`exhale_class_classLocalFileSystem`)
+- ``public S3FileSystem`` (:ref:`exhale_class_classS3FileSystem`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: FileSystemInterface
+   :members:
+   :protected-members:
+   :undoc-members:

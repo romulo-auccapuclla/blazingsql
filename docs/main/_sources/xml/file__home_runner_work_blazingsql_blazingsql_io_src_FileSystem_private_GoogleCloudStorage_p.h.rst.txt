@@ -1,0 +1,51 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorage_p.h:
+
+File GoogleCloudStorage_p.h
+===========================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/private``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/private/GoogleCloudStorage_p.h``)
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``FileSystem/GoogleCloudStorage.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_GoogleCloudStorage.h`)
+
+- ``GoogleCloudStorageOutputStream.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorageOutputStream.h`)
+
+- ``GoogleCloudStorageReadableFile.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorageReadableFile.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_GoogleCloudStorage.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorage_p.cpp`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classGoogleCloudStorage_1_1Private`
+

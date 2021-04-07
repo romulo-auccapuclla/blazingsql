@@ -1,0 +1,13 @@
+.. _exhale_function_FileSystemConnection_8cpp_1a3336c46e056874c91c978b237fd25ac3:
+
+Function HadoopFileSystemConnection::verifyConnectionProperties
+===============================================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: HadoopFileSystemConnection::verifyConnectionProperties(const std::string&, int, const std::string&, DriverType, const std::string&)

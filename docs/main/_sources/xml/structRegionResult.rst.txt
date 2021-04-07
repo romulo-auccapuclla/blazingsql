@@ -1,0 +1,16 @@
+.. _exhale_struct_structRegionResult:
+
+Struct RegionResult
+===================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3FileSystem_p.cpp`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: RegionResult
+   :members:
+   :protected-members:
+   :undoc-members:

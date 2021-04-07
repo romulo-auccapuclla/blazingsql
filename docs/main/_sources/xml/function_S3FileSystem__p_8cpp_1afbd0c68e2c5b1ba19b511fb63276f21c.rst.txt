@@ -1,0 +1,13 @@
+.. _exhale_function_S3FileSystem__p_8cpp_1afbd0c68e2c5b1ba19b511fb63276f21c:
+
+Function getRegion
+==================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3FileSystem_p.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: getRegion(std::string, std::shared_ptr<Aws::Auth::AWSCredentials>, const std::string&)

@@ -1,0 +1,16 @@
+.. _exhale_class_classFileStatus:
+
+Class FileStatus
+================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileStatus.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: FileStatus
+   :members:
+   :protected-members:
+   :undoc-members:

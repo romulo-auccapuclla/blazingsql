@@ -1,0 +1,13 @@
+.. _exhale_function_Logger_8cpp_1a41eeeeaff028fe650574ba4b5b8c7a54:
+
+Function Library::Logging::Logger
+=================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_Logger.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: Library::Logging::Logger()

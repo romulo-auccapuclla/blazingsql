@@ -1,0 +1,62 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemType.h:
+
+File FileSystemType.h
+=====================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/FileSystemType.h``)
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``string``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.h`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemException.h`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemType.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_Uri.h`
+
+
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_FileSystemType_8h_1a39c1bc1330c09b53e0e6d91b81d71ab4`
+
+- :ref:`exhale_enum_FileSystemType_8h_1af84e563c7edd4b6e3b944ca1e53383c5`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_FileSystemType_8h_1aa8b95fbc2ec8b32ff0781d1f8863db24`
+
+- :ref:`exhale_function_FileSystemType_8h_1af1125ee353b0dbb832628f35369f270a`
+

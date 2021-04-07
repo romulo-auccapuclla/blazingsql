@@ -1,0 +1,41 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemException.cpp:
+
+File FileSystemException.cpp
+============================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/FileSystemException.cpp``)
+--------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``FileSystemException.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemException.h`)
+
+- ``sstream``
+
+
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_FileSystemException_8cpp_1a1c859181ce75039a7c2324d0c5ca0ce0`
+

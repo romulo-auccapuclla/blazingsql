@@ -1,0 +1,13 @@
+.. _exhale_variable_S3OutputStream_8cpp_1aa6fc3ffea0649293f07b2d62421ffa43:
+
+Variable FAILED_UPLOAD
+======================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_S3OutputStream.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: FAILED_UPLOAD

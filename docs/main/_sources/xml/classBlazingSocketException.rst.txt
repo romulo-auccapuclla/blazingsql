@@ -1,0 +1,25 @@
+.. _exhale_class_classBlazingSocketException:
+
+Class BlazingSocketException
+============================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingException.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public BlazingIOException`` (:ref:`exhale_class_classBlazingIOException`)
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: BlazingSocketException
+   :members:
+   :protected-members:
+   :undoc-members:

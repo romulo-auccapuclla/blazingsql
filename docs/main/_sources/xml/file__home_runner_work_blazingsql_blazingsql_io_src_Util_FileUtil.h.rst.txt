@@ -1,0 +1,63 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.h:
+
+File FileUtil.h
+===============
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_Util>` (``/home/runner/work/blazingsql/blazingsql/io/src/Util``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/Util/FileUtil.h``)
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``arrow/api.h``
+
+- ``arrow/io/interfaces.h``
+
+- ``dirent.h``
+
+- ``iosfwd``
+
+- ``mutex``
+
+- ``string``
+
+- ``sys/stat.h``
+
+- ``vector``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Config_BlazingContext.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_FileSystemManager_p.cpp`
+
+- :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Util_FileUtil.cpp`
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classFileUtilv2`
+

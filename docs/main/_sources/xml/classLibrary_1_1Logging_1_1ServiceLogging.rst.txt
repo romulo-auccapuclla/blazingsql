@@ -1,0 +1,16 @@
+.. _exhale_class_classLibrary_1_1Logging_1_1ServiceLogging:
+
+Class ServiceLogging
+====================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_ServiceLogging.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: Library::Logging::ServiceLogging
+   :members:
+   :protected-members:
+   :undoc-members:

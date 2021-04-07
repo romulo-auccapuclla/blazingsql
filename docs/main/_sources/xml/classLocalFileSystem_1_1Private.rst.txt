@@ -1,0 +1,22 @@
+.. _exhale_class_classLocalFileSystem_1_1Private:
+
+Class LocalFileSystem::Private
+==============================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_LocalFileSystem_p.h`
+
+
+Nested Relationships
+--------------------
+
+This class is a nested type of :ref:`exhale_class_classLocalFileSystem`.
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: LocalFileSystem::Private
+   :members:
+   :protected-members:
+   :undoc-members:

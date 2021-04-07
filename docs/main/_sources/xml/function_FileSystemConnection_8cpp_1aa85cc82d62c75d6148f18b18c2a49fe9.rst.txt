@@ -1,0 +1,13 @@
+.. _exhale_function_FileSystemConnection_8cpp_1aa85cc82d62c75d6148f18b18c2a49fe9:
+
+Function HadoopFileSystemConnection::driverTypeFromName
+=======================================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_FileSystemConnection.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: HadoopFileSystemConnection::driverTypeFromName(const std::string&)

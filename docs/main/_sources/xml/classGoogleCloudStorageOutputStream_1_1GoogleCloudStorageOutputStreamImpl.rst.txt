@@ -1,0 +1,22 @@
+.. _exhale_class_classGoogleCloudStorageOutputStream_1_1GoogleCloudStorageOutputStreamImpl:
+
+Class GoogleCloudStorageOutputStream::GoogleCloudStorageOutputStreamImpl
+========================================================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorageOutputStream.cpp`
+
+
+Nested Relationships
+--------------------
+
+This class is a nested type of :ref:`exhale_class_classGoogleCloudStorageOutputStream`.
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: GoogleCloudStorageOutputStream::GoogleCloudStorageOutputStreamImpl
+   :members:
+   :protected-members:
+   :undoc-members:

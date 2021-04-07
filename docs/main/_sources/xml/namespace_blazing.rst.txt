@@ -1,0 +1,20 @@
+
+.. _namespace_blazing:
+
+Namespace blazing
+=================
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_blazing__io`

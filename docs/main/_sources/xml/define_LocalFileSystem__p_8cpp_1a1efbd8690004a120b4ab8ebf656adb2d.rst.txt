@@ -1,0 +1,13 @@
+.. _exhale_define_LocalFileSystem__p_8cpp_1a1efbd8690004a120b4ab8ebf656adb2d:
+
+Define FILE_PERMISSION_BITS_MODE
+================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_LocalFileSystem_p.cpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: FILE_PERMISSION_BITS_MODE

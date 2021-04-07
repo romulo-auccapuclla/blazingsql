@@ -1,0 +1,89 @@
+
+.. _file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_LocalFileSystem_p.cpp:
+
+File LocalFileSystem_p.cpp
+==========================
+
+|exhale_lsh| :ref:`Parent directory <dir__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private>` (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/private``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``/home/runner/work/blazingsql/blazingsql/io/src/FileSystem/private/LocalFileSystem_p.cpp``)
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Includes
+--------
+
+
+- ``ExceptionHandling/BlazingException.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingException.h`)
+
+- ``ExceptionHandling/BlazingThread.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingThread.h`)
+
+- ``Library/Logging/Logger.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_Library_Logging_Logger.h`)
+
+- ``LocalFileSystem_p.h`` (:ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_LocalFileSystem_p.h`)
+
+- ``arrow/io/file.h``
+
+- ``arrow/status.h``
+
+- ``cerrno``
+
+- ``chrono``
+
+- ``cstring``
+
+- ``dirent.h``
+
+- ``errno.h``
+
+- ``fcntl.h``
+
+- ``iostream``
+
+- ``stddef.h``
+
+- ``stdio.h``
+
+- ``stdlib.h``
+
+- ``sys/stat.h``
+
+- ``sys/syscall.h``
+
+- ``unistd.h``
+
+
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_LocalFileSystem__p_8cpp_1afdfbaa8b748ece151e2268386cb319c0`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_LocalFileSystem__p_8cpp_1a1efbd8690004a120b4ab8ebf656adb2d`
+
+
+Variables
+---------
+
+
+- :ref:`exhale_variable_LocalFileSystem__p_8cpp_1a00f3d91279b76f41c9e926a1b5dd59ca`
+

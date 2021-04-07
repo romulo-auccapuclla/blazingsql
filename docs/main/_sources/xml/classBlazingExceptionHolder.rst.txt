@@ -1,0 +1,16 @@
+.. _exhale_class_classBlazingExceptionHolder:
+
+Class BlazingExceptionHolder
+============================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_ExceptionHandling_BlazingExceptionHolder.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: BlazingExceptionHolder
+   :members:
+   :protected-members:
+   :undoc-members:

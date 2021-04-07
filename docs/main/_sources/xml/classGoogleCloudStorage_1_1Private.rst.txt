@@ -1,0 +1,22 @@
+.. _exhale_class_classGoogleCloudStorage_1_1Private:
+
+Class GoogleCloudStorage::Private
+=================================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_GoogleCloudStorage_p.h`
+
+
+Nested Relationships
+--------------------
+
+This class is a nested type of :ref:`exhale_class_classGoogleCloudStorage`.
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: GoogleCloudStorage::Private
+   :members:
+   :protected-members:
+   :undoc-members:

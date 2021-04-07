@@ -1,0 +1,13 @@
+.. _exhale_function_FileSystemRepository__p_8cpp_1ac989644404387e0dde93e010a59e0dc3:
+
+Function writeString
+====================
+
+- Defined in :ref:`file__home_runner_work_blazingsql_blazingsql_io_src_FileSystem_private_FileSystemRepository_p.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: writeString(std::ofstream&, const std::string&)
