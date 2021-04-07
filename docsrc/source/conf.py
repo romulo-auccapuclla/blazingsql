@@ -42,11 +42,10 @@ git_branch = head.name.replace('refs/heads/','')
 
 # The full version, including alpha/beta/rc tags
 if 'branch-' in git_branch:
-    version = git_branch.replace('branch-','')
-    release = f'v{version}'
-else:
-    version = git_branch
-    release = version
+    git_branch = git_branch.replace('branch-','')
+
+version = str(git_branch)
+release = f'v{version}'
 
 print('Version: ' + version + ' Release: ' + release)
 
@@ -165,7 +164,7 @@ html_sidebars = {
     "**": ["versioning.html","sidebar-search-bs.html","sbt-sidebar-nav.html", "sbt-sidebar-footer.html"]
 }
 # Override tags for sphinx multiversion
-smv_tag_whitelist = None
+smv_tag_whitelist = r'^v\d+\.\d+$'
 
 # Include branch version and main branch for sphinx multiversion
 smv_branch_whitelist = r'^(branch.|main).*$'
