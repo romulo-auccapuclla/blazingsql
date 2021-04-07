@@ -38,7 +38,7 @@ jobs:
         run: |
           cp -a docsrc/build/html/. docs/
           cp docsrc/other/redirect.html docs/index.html
-          touch docs/.nojekill
+          touch docs/.nojekyll
       - name: Commit documentation changes
         run: |
           git config --local user.email "action@github.com"
