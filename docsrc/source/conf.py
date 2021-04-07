@@ -12,7 +12,6 @@
 #
 import os
 import sys
-import re
 from pygit2 import Repository
 
 sys.path.insert(0, os.path.abspath('../../pyblazing'))
@@ -58,6 +57,7 @@ print('Version: ' + version + ' Release: ' + release)
 extensions = ['recommonmark',
                 "sphinx_multiversion",
                 'sphinx.ext.extlinks',
+                'sphinx.ext.todo',
                 'sphinx.ext.autodoc',
                 'sphinx.ext.autosummary',
                 'breathe',
