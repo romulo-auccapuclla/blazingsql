@@ -6,4 +6,3 @@ recommonmark==0.7.1
 sphinx==3.4.3
 sphinx-book-theme==0.0.42
 sphinx-multiversion==0.2.4
-sh==1.14.1
