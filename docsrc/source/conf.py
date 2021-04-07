@@ -48,7 +48,8 @@ if 'branch-' in git_branch:
     release = f'v{version}'
 else:
     release = version
-print('Version: ' + version + 'Release: ' + release)
+print('Version: ' + version + ' Release: ' + release)
+
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
