@@ -12,7 +12,6 @@
 #
 import os
 import sys
-from pygit2 import Repository
 
 sys.path.insert(0, os.path.abspath('../../pyblazing'))
 sys.setrecursionlimit(1500)
@@ -35,19 +34,12 @@ author = 'BlazingDB, Inc.'
 # for a list of supported languages.
 language = "en"
 
-# detect version
-repo = Repository('./')
-head = repo.head
-git_branch = head.name.replace('refs/heads/','')
-
 # The full version, including alpha/beta/rc tags
 if 'branch-' in git_branch:
     git_branch = git_branch.replace('branch-','')
 
-version = str(git_branch)
+version = '0.19'
 release = f'v{version}'
-
-print('Version: ' + version + ' Release: ' + release)
 
 # -- General configuration ---------------------------------------------------
 
