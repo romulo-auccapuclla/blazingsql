@@ -39,7 +39,7 @@ language = "en"
 # detect version
 repo = Repository('./')
 head = repo.head
-git_branch = head.replace('/refs/heads/','')
+git_branch = head.name.replace('/refs/heads/','')
 
 # The full version, including alpha/beta/rc tags
 version = 'latest'
