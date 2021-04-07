@@ -12,7 +12,6 @@
 #
 import os
 import sys
-import re
 
 sys.path.insert(0, os.path.abspath('../../pyblazing'))
 sys.setrecursionlimit(1500)
