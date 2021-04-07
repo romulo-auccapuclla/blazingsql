@@ -51,7 +51,7 @@ else:
 print('git_branch = {}'.format(git_branch[0]))
 
 # The full version, including alpha/beta/rc tags
-version = 'dev'
+version = '0.19'
 if 'branch-' in git_branch:
     version = git_branch.replace('branch-','')
 
