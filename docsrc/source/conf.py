@@ -38,15 +38,16 @@ language = "en"
 # detect version
 repo = Repository('./')
 head = repo.head
-git_branch = head.name.replace('/refs/heads/','')
+git_branch = head.name.replace('refs/heads/','')
 
 # The full version, including alpha/beta/rc tags
-version = 'latest'
 if 'branch-' in git_branch:
     version = git_branch.replace('branch-','')
     release = f'v{version}'
 else:
+    version = git_branch
     release = version
+
 print('Version: ' + version + ' Release: ' + release)
 
 # -- General configuration ---------------------------------------------------
@@ -151,7 +152,7 @@ html_theme_options = {
 }
 
 extlinks = {'io': (f'https://github.com/rapidsai/cudf/tree/branch-{version}/cpp/src/%s',
-                      'cuIO ')}
+                    'cuIO ')}
 
 html_context = {
     "github_user": "blazingdb",
