@@ -35,9 +35,6 @@ author = 'BlazingDB, Inc.'
 language = "en"
 
 # The full version, including alpha/beta/rc tags
-if 'branch-' in git_branch:
-    git_branch = git_branch.replace('branch-','')
-
 version = '0.19'
 release = f'v{version}'
 
