@@ -13,7 +13,6 @@
 import os
 import sys
 import re
-from sh.contrib import git
 
 sys.path.insert(0, os.path.abspath('../../pyblazing'))
 sys.setrecursionlimit(1500)
@@ -36,25 +35,7 @@ author = 'BlazingDB, Inc.'
 # for a list of supported languages.
 language = "en"
 
-# detect version
-git_branch = os.getenv('SPHINX_GIT_BRANCH', default=None)
-if not git_branch:
-    # If SPHINX_GIT_BRANCH environment variable is not given, run git
-    # to determine branch name
-    git_branch = [
-        re.sub(r'origin/', '', x.lstrip(' ')) for x in str(
-            git.branch('-r', '--contains', 'HEAD')).rstrip('\n').split('\n')
-    ]
-    git_branch = [x for x in git_branch if 'HEAD' not in x]
-else:
-    git_branch = [git_branch]
-print('git_branch = {}'.format(git_branch[0]))
-
-# The full version, including alpha/beta/rc tags
-version = 'dev'
-if 'branch-' in git_branch:
-    version = git_branch.replace('branch-','')
-
+version = '0.19'
 release = f'v{version}'
 
 # -- General configuration ---------------------------------------------------
@@ -172,7 +153,7 @@ html_sidebars = {
     "**": ["versioning.html","sidebar-search-bs.html","sbt-sidebar-nav.html", "sbt-sidebar-footer.html"]
 }
 # Override tags for sphinx multiversion
-smv_tag_whitelist = None
+smv_tag_whitelist = r'^v\d+\.\d+$'
 
 # Include branch version and main branch for sphinx multiversion
 smv_branch_whitelist = r'^(branch.|main).*$'
