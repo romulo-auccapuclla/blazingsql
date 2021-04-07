@@ -78,7 +78,7 @@ breathe_projects = {
 breathe_default_project = "BlazingSQL Engine"
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['templates']
+templates_path = ['_templates']
 
 # Tell sphinx what the primary language being documented is.
 primary_domain = 'py'
@@ -89,7 +89,7 @@ highlight_language = 'py'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['build', 'Thumbs.db', '.DS_Store']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -105,7 +105,7 @@ pygments_style = "sphinx"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['static']
+html_static_path = ['_static']
 
 html_css_files = [
     "css/getting_started.css",
@@ -115,7 +115,7 @@ html_css_files = [
 ]
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = "static/icons/svg/blazingsql_logo.svg"
+html_logo = "_static/icons/svg/blazingsql_logo.svg"
 
 html_favicon = "_static/icons/blazingsql-icon.ico"
 
