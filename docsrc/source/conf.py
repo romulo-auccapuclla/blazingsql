@@ -13,7 +13,7 @@
 import os
 import sys
 import re
-from sh.contrib import git
+from pygit2 import Repository
 
 sys.path.insert(0, os.path.abspath('../../pyblazing'))
 sys.setrecursionlimit(1500)
@@ -37,26 +37,18 @@ author = 'BlazingDB, Inc.'
 language = "en"
 
 # detect version
-git_branch = os.getenv('SPHINX_GIT_BRANCH', default=None)
-if not git_branch:
-    # If SPHINX_GIT_BRANCH environment variable is not given, run git
-    # to determine branch name
-    git_branch = [
-        re.sub(r'origin/', '', x.lstrip(' ')) for x in str(
-            git.branch('-r', '--contains', 'HEAD')).rstrip('\n').split('\n')
-    ]
-    git_branch = [x for x in git_branch if 'HEAD' not in x]
-else:
-    git_branch = [git_branch]
-print('git_branch = {}'.format(git_branch[0]))
+repo = Repository('./')
+head = repo.head
+git_branch = head.replace('/refs/heads/')
 
 # The full version, including alpha/beta/rc tags
-version = '0.19'
+version = 'latest'
 if 'branch-' in git_branch:
     version = git_branch.replace('branch-','')
-
-release = f'v{version}'
-
+    release = f'v{version}'
+else:
+    release = version
+print('Version: ' + version + 'Release: ' + release)
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
